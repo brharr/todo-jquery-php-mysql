@@ -1,16 +1,16 @@
 <?php
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for TODO App */
-define(getenv('DB_NAME'), 'todos');
+define('DB_NAME', getenv("DB_NAME"));
 
 /** MySQL database username */
-define(getenv('DB_USER'), 'root');
+define('DB_USER', getenv("DB_USER"));
 
 /** MySQL database password */
-define(getenv('DB_PASSWORD'), 'root');
+define("DB_PASSWORD", getenv("DB_PASSWORD"));
 
 /** MySQL hostname */
-define(getenv('DB_HOST'), 'localhost');
+define('DB_HOST', getenv("DB_HOST"));
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
